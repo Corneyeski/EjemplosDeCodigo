@@ -1,38 +1,35 @@
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class Calculadora {
 
     public static void main(String[] args) {
 
-        /**
-         * Ejemplo para leer valores escritos por terminal
-         */
         try {
-
-            //Iniciamos la clase que accedera a la terminal
             BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 
-            /**
-             * Mostramos un mensaje por terminal para hacer saber al usuario que tiene que introducir un valor
-             */
-            System.out.println("Introduce tu dia de nacimiento");
-            //buffer.readLine(); recoge el valor escrito por el usuario
-            String diaSr = buffer.readLine();
+            System.out.println("Introduce el valor a operar");
 
-            System.out.println(diaSr);
+            String textoRecoger1 = buffer.readLine();
+            int numero1 = Integer.parseInt(textoRecoger1);
 
-            /**
-             * Pasar String a int
-             */
-            int dia = Integer.parseInt(diaSr);
+            System.out.println("Introduce el valor a operar");
 
-            System.out.println(dia + 1);
+            String textoRecoger2 = buffer.readLine();
+            int numero2 = Integer.parseInt(textoRecoger2);
 
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(
+                    suma(numero1, numero2)
+            );
+
+        } catch(Exception exception) {
+            exception.printStackTrace();
         }
 
     }
+
+    private static int suma(int valor1, int valor2) {
+        return valor1 + valor2;
+    }
+
 }
