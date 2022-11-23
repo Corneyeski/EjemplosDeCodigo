@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="" />
+    <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/calculadora/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculadora/CalculadoraMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/switchcase/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/whileloop/WhileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29qsiwqRA05RDeR9AApodCdjQUI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,12 +44,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fixcodes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CalculadoraMenu">
+    <configuration name="CalculadoraMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculadora.CalculadoraMenu" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixCode5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode5" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fixcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixCode6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode6" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fixcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixCode7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode7" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fixcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whileloop.WhileExample" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whileloop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CalculadoraMenu" />
+        <item itemvalue="Application.WhileExample" />
+        <item itemvalue="Application.FixCode7" />
+        <item itemvalue="Application.FixCode6" />
+        <item itemvalue="Application.FixCode5" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
