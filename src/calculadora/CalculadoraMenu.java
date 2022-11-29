@@ -39,7 +39,7 @@ public class CalculadoraMenu {
         }while (option != 0);
     }
 
-    private static void sum(int val1, int val2){
+    public static void sum(int val1, int val2) {
         System.out.println(val1 + val2);
     }
     private static void resta(int val1, int val2){

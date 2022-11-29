@@ -1,19 +1,18 @@
-import calculadora.CalculadoraMenu;
+package forloop;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
-public class Main {
+public class ForLoop {
+
     public static void main(String[] args) throws IOException {
-
         ejemploArray();
     }
-    private static void ejemploArray(){
+
+    private static void ejemploArray() {
 
         //int[] arrayDeEjemplo = new int[5];
         int[] arrayDeEjemplo = {
-          3, 7, 9, 0, 2
+                3, 7, 9, 0, 2
         };
 
         int[][] numericos = {
@@ -33,7 +32,7 @@ public class Main {
 
         for (int i = 0; i < numericos.length; i++) {
 
-            for (int j = 0; j < numericos[i].length; j++){
+            for (int j = 0; j < numericos[i].length; j++) {
                 System.out.print(numericos[i][j]);
             }
             System.out.println();

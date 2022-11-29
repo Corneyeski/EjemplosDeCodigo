@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="añadidos ejemplos">
       <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode11.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode4.java" afterDir="false" />
@@ -14,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode7.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculadora/CalculadoraMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculadora/CalculadoraMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +55,39 @@
       <recent name="fixcodes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculadoraMenu">
-    <configuration name="CalculadoraMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculadora.CalculadoraMenu" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="FixCode1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode1" />
       <module name="EjemplosDeCodigo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculadora.*" />
+          <option name="PATTERN" value="fixcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixCode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode2" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fixcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixCode3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode3" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fixcodes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,51 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixCode6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode6" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="EjemplosDeCodigo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fixcodes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FixCode7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode7" />
-      <module name="EjemplosDeCodigo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fixcodes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="whileloop.WhileExample" />
-      <module name="EjemplosDeCodigo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="whileloop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculadoraMenu" />
-        <item itemvalue="Application.WhileExample" />
-        <item itemvalue="Application.FixCode7" />
-        <item itemvalue="Application.FixCode6" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FixCode1" />
+        <item itemvalue="Application.FixCode3" />
+        <item itemvalue="Application.FixCode2" />
         <item itemvalue="Application.FixCode5" />
       </list>
     </recent_temporary>
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669228636787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="añadidos ejemplos">
+      <created>1669231406106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669231406106</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
