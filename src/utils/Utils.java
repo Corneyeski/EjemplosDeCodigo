@@ -89,7 +89,7 @@ public class Utils {
     }
 
     @SuppressWarnings("unchecked")
-    public <T> T ask(String message, Types type) {
+    public static <T> T ask(String message, Types type) {
         System.out.println(message);
         try {
             switch (type) {
@@ -124,7 +124,7 @@ public class Utils {
     }
 
     @SuppressWarnings("unchecked")
-    private <T> T defaultValue(Types type) {
+    private static  <T> T defaultValue(Types type) {
         switch (type) {
             case BOOLEAN -> {
                 return (T) Boolean.valueOf(false);

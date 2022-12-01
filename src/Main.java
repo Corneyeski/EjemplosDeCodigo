@@ -9,10 +9,9 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Utils utils = new Utils();
-
-        Integer testInt = utils.ask("Insert number: ", Types.INT);
+        Integer testInt = Utils.ask("Insert number: ", Types.INT);
         System.out.println(testInt);
+
     }
     private static void ejemploArray(){
 
