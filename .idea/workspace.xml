@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="añadidos ejemplos">
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixcodes/FixCode8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculadora/CalculadoraMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculadora/CalculadoraMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forloop/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forloop/ForLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -43,13 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fixcodes" />
@@ -95,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixCode5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode5" />
+    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="forloop.ForLoop" />
       <module name="EjemplosDeCodigo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fixcodes.*" />
+          <option name="PATTERN" value="forloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,10 +113,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.FixCode1" />
         <item itemvalue="Application.FixCode3" />
         <item itemvalue="Application.FixCode2" />
-        <item itemvalue="Application.FixCode5" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669231406106</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="añadidos ejemplos">
+      <created>1669745610548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669745610548</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

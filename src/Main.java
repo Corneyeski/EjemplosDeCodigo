@@ -1,4 +1,6 @@
 import calculadora.CalculadoraMenu;
+import utils.Types;
+import utils.Utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +9,10 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        ejemploArray();
+        Utils utils = new Utils();
+
+        Integer testInt = utils.ask("Insert number: ", Types.INT);
+        System.out.println(testInt);
     }
     private static void ejemploArray(){
 
