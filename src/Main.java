@@ -6,14 +6,19 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//CLASE
 public class Main {
+
+    //FUNCION
+
     public static void main(String[] args) throws IOException {
 
-        Integer testInt = Utils.ask("Insert number: ", Types.INT);
-        System.out.println(testInt);
+        String name = "";
+
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
     }
-    private static void ejemploArray(){
+    private static void ejemploArray() {
 
         //int[] arrayDeEjemplo = new int[5];
         int[] arrayDeEjemplo = {
@@ -46,4 +51,7 @@ public class Main {
 
         //...
     }
+
+
+
 }

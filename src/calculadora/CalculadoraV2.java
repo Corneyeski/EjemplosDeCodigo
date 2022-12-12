@@ -76,7 +76,12 @@ public class CalculadoraV2 {
 
         try {
             System.out.println(text);
-            return Integer.parseInt(buffer.readLine());
+            int valor = Integer.parseInt(buffer.readLine());
+
+            if (valor < 0 || valor > 9)
+                return requestNumber(text);
+            else return valor;
+
         } catch (IOException e) {
             System.out.println(INVALID);
             return requestNumber(text);
