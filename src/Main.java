@@ -1,21 +1,15 @@
-import calculadora.CalculadoraMenu;
-import utils.Types;
 import utils.Utils;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 //CLASE
 public class Main {
 
     //FUNCION
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        String name = "";
+        int numero = Utils.askInt();
 
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        int numero2 = Utils.askInt("Dame un numerico");
 
     }
     private static void ejemploArray() {

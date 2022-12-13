@@ -10,7 +10,7 @@ public class Main {
 
     private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-    private static Profesor[] profesores = new Profesor[10];
+    private static final Profesor[] profesores = new Profesor[10];
 
     public static void main(String[] args) throws IOException {
 
@@ -39,6 +39,7 @@ public class Main {
 
     private static void ejemploInstanciar() throws IOException {
         //Enseñar que profesores dan que clases a que alumnos en que aulas
+
         Profesor profesor1 = new Profesor("Alan", "C/ piruleta", 26, new Date(), "Programacion Java");
         Profesor profesor2 = new Profesor("Juanita", "C/ falsa 123", 35, new Date(), "Programacion HTML");
 

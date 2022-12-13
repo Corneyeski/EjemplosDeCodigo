@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="añadidos ejemplos">
-      <change afterPath="$PROJECT_DIR$/src/clases/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/EjemploClases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/Materia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/Profesor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculadora/CalculadoraV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculadora/CalculadoraV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clases/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
       <recent name="fixcodes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.clases.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FixCode1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode1" />
       <module name="EjemplosDeCodigo" />
@@ -114,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.clases.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.clases.Main" />
         <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.FixCode1" />
         <item itemvalue="Application.FixCode3" />
@@ -166,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669923567189</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="añadidos ejemplos">
+      <created>1670873566219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670873566219</updated>
+    </task>
+    <task id="LOCAL-00007" summary="añadidos ejemplos">
+      <created>1670954943824</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670954943824</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

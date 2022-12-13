@@ -1,7 +1,6 @@
 package utils;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Utils {
@@ -14,7 +13,7 @@ public class Utils {
         try {
             System.out.println("Introduce a valid number with decimals:");
             return Double.parseDouble(buffer.readLine());
-        } catch (IOException e) {
+        } catch (Exception e) {
             if (breakLoop())
                 return askDouble();
             else return 0.0;
@@ -25,7 +24,7 @@ public class Utils {
         try {
             System.out.println(message);
             return Double.parseDouble(buffer.readLine());
-        } catch (IOException e) {
+        } catch (Exception e) {
             if (breakLoop())
                 return askDouble(message);
             else return 0.0;
@@ -36,7 +35,7 @@ public class Utils {
         try {
             System.out.println("Introduce a text:");
             return buffer.readLine();
-        } catch (IOException e) {
+        } catch (Exception e) {
             if (breakLoop())
                 return askString();
             else return "";
@@ -47,7 +46,7 @@ public class Utils {
         try {
             System.out.println(message);
             return buffer.readLine();
-        } catch (IOException e) {
+        } catch (Exception e) {
             if (breakLoop())
                 return askString(message);
             else return "";
@@ -58,7 +57,7 @@ public class Utils {
         try {
             System.out.println("Introduce a number:");
             return Integer.parseInt(buffer.readLine());
-        } catch (IOException e) {
+        } catch (Exception e) {
             if (breakLoop())
                 return askInt();
             else return 0;
@@ -69,7 +68,7 @@ public class Utils {
         try {
             System.out.println(message);
             return Integer.parseInt(buffer.readLine());
-        } catch (IOException e) {
+        } catch (Exception e) {
             if (breakLoop())
                 return askInt(message);
             else return 0;
