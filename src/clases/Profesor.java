@@ -16,6 +16,7 @@ public class Profesor {
 
     private Materia[] materias;
 
+
     public Profesor(String nombre, String direccion, int edad, Date nacimiento, String rama) {
         this.nombre = nombre;
         this.direccion = direccion;
@@ -43,11 +44,7 @@ public class Profesor {
     }
 
     public void setNombre(String nombre) {
-
-        if(nombre.length() > 20){
-            System.out.println("Tu nombre es muy largo, crack.");
-        }
-        else this.nombre = nombre;
+        this.nombre = nombre;
     }
 
     public String getDireccion() {

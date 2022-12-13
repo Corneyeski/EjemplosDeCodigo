@@ -10,9 +10,19 @@ public class Main {
 
     private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
+    private static Profesor[] profesores = new Profesor[10];
+
     public static void main(String[] args) throws IOException {
 
         Profesor profesor = new Profesor("Alan", "C/ falsa", 26, new Date(), "Programacion", new Materia[5]);
+
+        //Guardamos el profesor en el array a traves de una variable
+        profesores[0] = profesor;
+
+        //Creamos el profesor directamente en una posicion del array
+        profesores[1] = new Profesor("Alan", "C/ falsa", 26, new Date(), "Programacion", new Materia[5]);
+
+
         Alumno alumno = new Alumno("Javier", 28);
 
         Materia materia = new Materia("Java", new Alumno[1], profesor);
