@@ -1,4 +1,4 @@
-package clases;
+package clases.colegio;
 
 import java.io.BufferedReader;
 

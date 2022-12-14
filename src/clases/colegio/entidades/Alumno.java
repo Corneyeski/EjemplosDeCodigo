@@ -1,4 +1,4 @@
-package clases;
+package clases.colegio.entidades;
 
 public class Alumno {
 
