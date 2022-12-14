@@ -1,9 +1,5 @@
 package clases.colegio;
 
-import clases.colegio.entidades.Alumno;
-import clases.colegio.entidades.Materia;
-import clases.colegio.entidades.Profesor;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

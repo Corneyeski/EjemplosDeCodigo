@@ -1,4 +1,4 @@
-package clases.colegio.entidades;
+package clases.colegio;
 
 import java.util.Date;
 
