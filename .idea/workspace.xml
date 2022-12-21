@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="añadidos ejemplos">
-      <change afterPath="$PROJECT_DIR$/src/clases/enums/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/enums/entities/Cargos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/enums/entities/FileExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/enums/entities/FileType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clases/enums/entities/UserFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/CompanyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/entities/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/service/BossMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/service/ManagerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/service/WorkerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/empresa/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/colegio/entidades/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases/EjemploClases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/colegio/EjemploClases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/colegio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/colegio/entidades/Materia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/colegio/entidades/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clases/enums/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/enums/FileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,15 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/alanv/IdeaProjects/EjemplosDeCodigo/src/empresa/utils",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alanv\IdeaProjects\EjemplosDeCodigo\src\empresa\utils" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fixcodes" />
     </key>
@@ -197,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670958253006</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="añadidos ejemplos">
+      <created>1671046513836</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671046513836</updated>
+    </task>
+    <task id="LOCAL-00011" summary="añadidos ejemplos">
+      <created>1671046530854</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671046530854</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +237,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/clases/enums/FileManager.java</url>
-          <line>105</line>
+          <line>118</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

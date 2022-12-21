@@ -103,6 +103,19 @@ public class FileManager {
 
     private static void documentDoSomething(){
 
+        UserFile file;
+        UserFile file2 = new UserFile("misApuntes", 213, WAV);
+
+        UserFile[] userFiles = new UserFile[10];
+
+        String name = "";
+        int size = 10;
+
+
+        userFiles[2] = new UserFile(name,size, MP3);
+
+        UserFile file3 = userFiles[2];
+
     }
 
     private static void videoDoSomething(){
