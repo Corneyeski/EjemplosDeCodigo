@@ -30,7 +30,8 @@ public class BossMenu {
 
         } while (option != 5);
 
-        //Verify if update getInstance().employees is required
+        //Verify if update getInstance().employees is required to be updated
+        getInstance().employees = employees;
     }
 
     private static void addEmployee(Employee[] employees) {

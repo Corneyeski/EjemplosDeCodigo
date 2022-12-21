@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="añadidos ejemplos">
-      <change afterPath="$PROJECT_DIR$/src/empresa/CompanyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/empresa/entities/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/empresa/entities/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/empresa/service/BossMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/empresa/service/ManagerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/empresa/service/WorkerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/empresa/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/empresa/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clases/enums/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clases/enums/FileManager.java" afterDir="false" />
+    <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="Iniciado empresa menu Jefe">
+      <change beforePath="$PROJECT_DIR$/src/empresa/service/BossMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/empresa/service/BossMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/alanv/IdeaProjects/EjemplosDeCodigo/src/empresa/utils",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alanv/IdeaProjects/EjemplosDeCodigo/src/empresa/utils&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alanv\IdeaProjects\EjemplosDeCodigo\src\empresa\utils" />
@@ -214,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671046530854</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Iniciado empresa menu Jefe">
+      <created>1671647683839</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671647683839</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +228,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadidos ejemplos" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadidos ejemplos" />
+    <MESSAGE value="Iniciado empresa menu Jefe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciado empresa menu Jefe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
