@@ -1,11 +1,14 @@
 package lambda;
 
+import empresa.entities.Company;
+import empresa.entities.Employee;
 import lambda.entities.Human;
 import lambda.service.Messages;
 import lambda.service.WeekDay;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 public class Main {
@@ -73,6 +76,43 @@ public class Main {
          */
         printResults(humans);
         printOnlyTheName(humans);
+
+
+        Collection<String> lista = new ArrayList<>();
+        lista.add("test");
+        lista.remove("test");
+        //lista.re(0);
+
+
+        List<Integer> lista2 = new ArrayList<>();
+        lista2.add(1);
+        lista2.add(2);
+        lista2.add(3);
+        lista2.add(4);
+        lista2.add(4);
+        lista2.add(4);
+        lista2.add(4);
+        lista2.add(4);
+        lista2.add(4);
+        lista2.add(4);
+
+        for (Integer integer : lista2) {
+            System.out.println(integer);
+        }
+
+        List<Employee> company = new ArrayList<>();
+
+        Employee company1 = new Employee(0, "fsafasf", "asfafs", "asffsa", Employee.Rank.WORKER);
+
+        System.out.println(company1);
+
+        company.add(company1);
+
+        System.out.println(company.get(0));
+
+        company.get(0).setName("Alan");
+
+        System.out.println(company1.getName());
 
     }
 
