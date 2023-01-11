@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="Lambdas">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/ClaseEjemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +53,13 @@
       <recent name="fixcodes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileManager">
+  <component name="RunManager" selected="Application.maps.Main">
     <configuration name="FileManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="clases.enums.FileManager" />
       <module name="EjemplosDeCodigo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="clases.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FixCode1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fixcodes.FixCode1" />
-      <module name="EjemplosDeCodigo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fixcodes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="maps.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.Main" />
+      <module name="EjemplosDeCodigo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maps.Main" />
         <item itemvalue="Application.FileManager" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.clases.colegio.Main" />
         <item itemvalue="Application.ForLoop" />
-        <item itemvalue="Application.FixCode1" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672769080882</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lambdas">
+      <created>1673376379275</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673376379275</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

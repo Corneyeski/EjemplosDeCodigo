@@ -17,6 +17,6 @@ public class Main {
         lista.add("testLista");
         lista.get(0);
 
-        
+        lista.get(lista.size()-1);
     }
 }
