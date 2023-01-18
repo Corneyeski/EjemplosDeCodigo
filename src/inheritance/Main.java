@@ -66,10 +66,10 @@ public class Main {
         System.out.println("**************************************************");
 
         A implementacion = new B();
-        System.out.println(implementacion.multiplicaValor(2));
+        System.out.println(((B) implementacion).multiplicaValor(2));
 
         A implementacion2 = new C();
-        System.out.println(implementacion2.multiplicaValor(2));
+        System.out.println(((C) implementacion2).multiplicaValor(2));
 
     }
 

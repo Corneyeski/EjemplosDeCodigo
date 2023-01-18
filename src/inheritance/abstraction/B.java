@@ -3,7 +3,7 @@ package inheritance.abstraction;
 public class B extends A implements D {
 
     @Override
-    int multiplicaValor(int valor1) {
+    public int multiplicaValor(int valor1) {
         return valor1 * 2;
     }
 
