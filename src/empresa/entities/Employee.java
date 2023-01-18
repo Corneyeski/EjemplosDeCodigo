@@ -8,7 +8,7 @@ import static empresa.utils.Utils.Types.INT;
 import static empresa.utils.Utils.Types.STRING;
 import static empresa.utils.Utils.ask;
 
-public class Employee {
+public class Employee implements Comparable<Employee>  {
 
     private int id;
     private String dni;
@@ -17,6 +17,7 @@ public class Employee {
     private Date hired;
     private Rank rank;
     private int wallet = 0;
+    private Company[] clients = new Company[10];
 
     public Employee(int id, String dni, String name, String password, Rank rank) {
         this.id = id;
@@ -25,6 +26,9 @@ public class Employee {
         this.password = password;
         this.hired = new Date();
         this.rank = rank;
+    }
+
+    public Employee() {
     }
 
     public int getId() {
@@ -83,6 +87,13 @@ public class Employee {
         this.wallet = wallet;
     }
 
+    public Company[] getClients() {
+        return clients;
+    }
+    public int getClientsSize() {
+        return clients.length;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -91,19 +102,6 @@ public class Employee {
                 ", hired=" + hired +
                 ", rank=" + rank +
                 '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Employee employee)) return false;
-
-        return dni.equals(employee.dni);
-    }
-
-    @Override
-    public int hashCode() {
-        return dni.hashCode();
     }
 
 
@@ -115,7 +113,6 @@ public class Employee {
 
         return new Employee(id, dni, name, password, rank);
     }
-
     public enum Rank {
         BOSS, MANAGER, WORKER
     }
@@ -160,5 +157,27 @@ public class Employee {
                 }
             }
         } while (true);
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee employee)) return false;
+
+        return id == employee.id;
+    }
+
+
+    @Override
+    public int compareTo(Employee o) {
+        return 0;
+    }
+
+
+
+    @Override
+    public int hashCode() {
+        return wallet;
     }
 }

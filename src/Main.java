@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) {
 
         int numero = Utils.askInt();
-
         int numero2 = Utils.askInt("Dame un numerico");
 
     }

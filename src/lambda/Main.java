@@ -1,20 +1,16 @@
 package lambda;
 
-import empresa.entities.Company;
 import empresa.entities.Employee;
 import lambda.entities.Human;
 import lambda.service.Messages;
 import lambda.service.WeekDay;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Human human = new Human("Alan", 26);
         Human human2 = new Human("manolo", 30);
@@ -113,6 +109,33 @@ public class Main {
         company.get(0).setName("Alan");
 
         System.out.println(company1.getName());
+
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(1, 1);
+
+
+
+
+        Optional<Map.Entry<Integer, Integer>> entry =
+                map.entrySet()
+                        .stream()
+                        .filter(x -> x.getValue().equals(1))
+                        .findFirst();
+
+        if(entry.isPresent()){
+            System.out.println("EL valor es tal");
+        } else System.out.println("No hay coincidencias");
+
+
+
+
+
+
+
+
+        for (Map.Entry<Integer, Integer> e : map.entrySet()) {
+
+        }
 
     }
 

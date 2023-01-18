@@ -3,6 +3,10 @@ package empresa;
 import empresa.entities.Employee;
 import empresa.utils.Utils;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 import static empresa.entities.Company.getInstance;
 import static empresa.service.BossMenu.bossMenu;
 import static empresa.service.ManagerMenu.managerMenu;
@@ -16,6 +20,15 @@ public class CompanyMain {
         //Initialize data
         getInstance().employees[0] = new Employee(0, "10203040T", "Boss", "admin", Employee.Rank.BOSS);
         int option = 0;
+
+        Employee employee = new Employee();
+        employee.getClients();
+
+        getInstance().employees[6].getClientsSize();
+
+        List<Employee> employeeList = new ArrayList<>();
+        List<Employee> results;
+        employeeList.sort(Comparator.comparing(Employee::getClientsSize));
 
         while (option != 2) {
             showMenu();
