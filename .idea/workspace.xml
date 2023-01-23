@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="Lambdas">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/abstraction/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/abstraction/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/abstraction/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/abstraction/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/entities/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/entities/Police.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/service/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/service/AbstractClassImpl.java" afterDir="false" />
+    <list default="true" id="bad4c9a8-e2d8-4fd0-b776-82bcacaddb6c" name="Changes" comment="Interfaces y herencia">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/empresa/CompanyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/empresa/CompanyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/empresa/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/empresa/entities/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/service/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/service/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +53,7 @@
       <recent name="fixcodes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.inheritance.Main">
+  <component name="RunManager" selected="Application.maps.Main">
     <configuration name="FileManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="clases.enums.FileManager" />
       <module name="EjemplosDeCodigo" />
@@ -127,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.inheritance.Main" />
         <item itemvalue="Application.maps.Main" />
+        <item itemvalue="Application.inheritance.Main" />
         <item itemvalue="Application.FileManager" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.clases.colegio.Main" />
@@ -263,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673622998650</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Interfaces y herencia">
+      <created>1674064027006</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674064027006</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Interfaces y herencia">
+      <created>1674064091979</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674064091979</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -292,7 +294,8 @@
     <MESSAGE value="añadidos ejemplos" />
     <MESSAGE value="Iniciado empresa menu Jefe" />
     <MESSAGE value="Lambdas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambdas" />
+    <MESSAGE value="Interfaces y herencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces y herencia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -301,6 +304,14 @@
           <url>file://$PROJECT_DIR$/src/clases/enums/FileManager.java</url>
           <line>118</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/maps/Main.java</url>
+          <line>90</line>
+          <properties>
+            <option name="lambda-ordinal" value="1" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

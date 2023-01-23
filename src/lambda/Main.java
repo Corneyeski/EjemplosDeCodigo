@@ -6,6 +6,8 @@ import lambda.service.Messages;
 import lambda.service.WeekDay;
 
 import java.util.*;
+import java.util.Map.Entry;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -109,33 +111,6 @@ public class Main {
         company.get(0).setName("Alan");
 
         System.out.println(company1.getName());
-
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(1, 1);
-
-
-
-
-        Optional<Map.Entry<Integer, Integer>> entry =
-                map.entrySet()
-                        .stream()
-                        .filter(x -> x.getValue().equals(1))
-                        .findFirst();
-
-        if(entry.isPresent()){
-            System.out.println("EL valor es tal");
-        } else System.out.println("No hay coincidencias");
-
-
-
-
-
-
-
-
-        for (Map.Entry<Integer, Integer> e : map.entrySet()) {
-
-        }
 
     }
 
