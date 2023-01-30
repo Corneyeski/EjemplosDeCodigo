@@ -4,6 +4,7 @@ import empresa.entities.Employee;
 import empresa.utils.Utils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
@@ -64,5 +65,24 @@ public class CompanyMain {
             case MANAGER -> managerMenu(employee);
             case WORKER -> workerMenu(employee);
         }
+    }
+
+    private static void sort() {
+
+        Employee[] sort = new Employee[8];
+
+        int count = 0;
+        for (Employee employee : getInstance().employees) {
+            if(employee.getRank() == Employee.Rank.WORKER) {
+                sort[count] = employee;
+                count ++;
+            }
+        }
+        Arrays.sort(getInstance().employees);
+
+        getInstance().employees[0] = null;
+        getInstance().employees[1] = null;
+
+
     }
 }

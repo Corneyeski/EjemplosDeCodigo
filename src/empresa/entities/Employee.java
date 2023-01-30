@@ -159,7 +159,6 @@ public class Employee implements Comparable<Employee>  {
         } while (true);
     }
 
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -168,16 +167,23 @@ public class Employee implements Comparable<Employee>  {
         return id == employee.id;
     }
 
-
     @Override
     public int compareTo(Employee o) {
-        return 0;
+
+        if(o == null)
+            return 0;
+
+        if(this.getClientsSize() > o.getClientsSize())
+            return 0;
+        else return 1;
     }
-
-
 
     @Override
     public int hashCode() {
         return wallet;
     }
+
+
+
+
 }
